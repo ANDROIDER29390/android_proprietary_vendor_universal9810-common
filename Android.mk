@@ -19,14 +19,15 @@ ifeq ($($(TARGET_DEVICE)),crownlte)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.samsung.camera.device@1.0-impl
+LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.samsung.camera.device@1.0-impl.so
-LOCAL_SRC_FILES_32 := proprietary/lib/vendor.samsung.camera.device@1.0-impl.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/egl/libGLES_mali.so
+LOCAL_SRC_FILES_32 := proprietary/lib/egl/libGLES_mali.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 include $(BUILD_PREBUILT)
 
 endif
