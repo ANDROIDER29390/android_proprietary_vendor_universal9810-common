@@ -332,9 +332,10 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9810.so \
-        vendor/samsung/universal9810-common/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9810.so \
-        vendor/samsung/universal9810-common/proprietary/lib/hw/memtrack.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/power.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.universal9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/thermal.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@2.0-impl.so \
@@ -540,10 +541,11 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9810.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/hw/memtrack.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/power.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.universal9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/thermal.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
@@ -619,6 +621,8 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhal.wsm.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhal.wsm.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhifills_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifistill.so \
