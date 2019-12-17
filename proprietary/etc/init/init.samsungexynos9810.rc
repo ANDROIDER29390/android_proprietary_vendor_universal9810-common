@@ -512,7 +512,7 @@ on post-fs-data
 # MST/NFC Switch
     chown spay system /dev/mst_ctrl
     chmod 0660 /dev/mst_ctrl
-    
+
 on boot
 # SSWAP
     write /proc/sys/vm/swappiness 160
@@ -539,7 +539,7 @@ on boot
     chown system radio /sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/scaling_devfreq_min
     chmod 0664 /sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/scaling_devfreq_min
     chown system radio /sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/available_frequencies
-    chmod 0444 /sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/available_frequencies
+    chmod 0664 /sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/available_frequencies
     chown system radio /sys/devices/system/sec_os_ctrl/migrate_os
     chmod 0664 sys/devices/system/sec_os_ctrl/migrate_os
 
