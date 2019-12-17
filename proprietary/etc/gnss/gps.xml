@@ -12,10 +12,12 @@
     LPmode="false"
     CpColdStart="false"
     CpGuardTimeSec="1"
+    CpLppGuardTimeSec="1"
     ReAidingOnHotStart="false"
     SuplSslMethod="SSLv23_NO_TLSv1_2"
     SuplEnable="true"
     SuplUseApn="false"
+    AllowEmergencyNiInNonEmerState="true"
     SuplTlsCertPath="/vendor/etc/gnss/gps.cer"
     SuplUT1Seconds="20"
     SuplUT2Seconds="20"
@@ -38,6 +40,8 @@
     DisablePglorNmeaCallback="true"
 
     GnssYearOfHardware="2016"
+    WakelockAlertSec="1800"
+    EventDumpEnable="true"
 
    />
 
