@@ -315,14 +315,7 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_soft_g711dec.so \
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_soft_rawdec.so \
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
         vendor/samsung/universal9810-common/proprietary/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-        vendor/samsung/universal9810-common/proprietary/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/libGLES_mali.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/audio.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/sound_trigger.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
@@ -341,19 +334,6 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Encoder.so \
-        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
@@ -372,25 +352,57 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@4.0-impl.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@4.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.camera.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.5-legacy.so \
+        vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gatekeeper@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libBeauty_v2.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeauty_v2.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDLInterface.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFacePreProcessing.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libFrucSSMLib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrucSSMLib.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_core.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SamsungRec_06006.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06006.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_play_plus_ver210.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver210.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundBooster_ver950.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver950.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+        vendor/samsung/universal9810-common/proprietary/lib/lib_supernight_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_supernight_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libaboxpcmdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaboxpcmdump.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libaudiodebugfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodebugfs.so \
         vendor/samsung/universal9810-common/proprietary/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
         vendor/samsung/universal9810-common/proprietary/lib/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl_plugin_slsi_hdr10.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
         vendor/samsung/universal9810-common/proprietary/lib/libalsautils_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils_sec.so \
         vendor/samsung/universal9810-common/proprietary/lib/libapex_cmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapex_cmn.so \
         vendor/samsung/universal9810-common/proprietary/lib/libapex_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapex_utils.so \
         vendor/samsung/universal9810-common/proprietary/lib/libarac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarac.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_object_tracking.so \
         vendor/samsung/universal9810-common/proprietary/lib/libarcsoft_stereodistancemeasure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_stereodistancemeasure.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_super_night_raw.so \
         vendor/samsung/universal9810-common/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libaudiodebugfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodebugfs.so \
         vendor/samsung/universal9810-common/proprietary/lib/libaudioproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioproxy.so \
         vendor/samsung/universal9810-common/proprietary/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
         vendor/samsung/universal9810-common/proprietary/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libBeauty_v2.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeauty_v2.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib/libblurdetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurdetection.so \
         vendor/samsung/universal9810-common/proprietary/lib/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurdetection_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libclcore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libclcore.bc \
@@ -399,26 +411,29 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/libcodecdspdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodecdspdump.so \
         vendor/samsung/universal9810-common/proprietary/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
         vendor/samsung/universal9810-common/proprietary/lib/libdatamod.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatamod.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDLInterface.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdualcam_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_optical_zoom.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_refocus.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdualcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcapture.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdualcapture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcapture_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libdualpreview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualpreview_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libeden_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeden_wrapper.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffectsconfig.so \
         vendor/samsung/universal9810-common/proprietary/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
         vendor/samsung/universal9810-common/proprietary/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFacePreProcessing.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
         vendor/samsung/universal9810-common/proprietary/lib/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking.so \
         vendor/samsung/universal9810-common/proprietary/lib/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libFrucSSMLib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrucSSMLib.so \
         vendor/samsung/universal9810-common/proprietary/lib/libgaya.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgaya.so \
         vendor/samsung/universal9810-common/proprietary/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libhal.wsm.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal.wsm.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgiantmscl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfd.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhifills_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill.so \
@@ -426,14 +441,12 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/libhifivdislib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifivdislib.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhifivideo_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifivideo_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhigh_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhigh_dynamic_range.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_core.so \
         vendor/samsung/universal9810-common/proprietary/lib/libhypermotion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_core.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
         vendor/samsung/universal9810-common/proprietary/lib/libiva_android_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiva_android_hal.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libkeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster3device.so \
         vendor/samsung/universal9810-common/proprietary/lib/liblivefocus_capture_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_capture_engine.so \
         vendor/samsung/universal9810-common/proprietary/lib/liblivefocus_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_capture_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/liblivefocus_preview_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_preview_engine.so \
@@ -441,32 +454,26 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/libllhdr_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllhdr_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/liblow_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblow_light_hdr.so \
         vendor/samsung/universal9810-common/proprietary/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
-        vendor/samsung/universal9810-common/proprietary/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
         vendor/samsung/universal9810-common/proprietary/lib/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdf.so \
         vendor/samsung/universal9810-common/proprietary/lib/libmfhdr_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfhdr_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
         vendor/samsung/universal9810-common/proprietary/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopenvx.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
-        vendor/samsung/universal9810-common/proprietary/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
         vendor/samsung/universal9810-common/proprietary/lib/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpa.so \
         vendor/samsung/universal9810-common/proprietary/lib/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpadm.so \
         vendor/samsung/universal9810-common/proprietary/lib/libpredeflicker_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpredeflicker_native.so \
         vendor/samsung/universal9810-common/proprietary/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
         vendor/samsung/universal9810-common/proprietary/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
         vendor/samsung/universal9810-common/proprietary/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
+        vendor/samsung/universal9810-common/proprietary/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsaiv_BeautySolutionVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_BeautySolutionVideo.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsaped.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaped.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsavsac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavsac.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsavscmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavscmn.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsavsvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavsvc.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libSceneDetector_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSceneDetector_v1.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib/libscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscore.so \
         vendor/samsung/universal9810-common/proprietary/lib/libscore_camera1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscore_camera1.so \
         vendor/samsung/universal9810-common/proprietary/lib/libscore_camera2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscore_camera2.so \
@@ -474,18 +481,17 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/libsdynatm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdynatm.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsecGestureAttribute.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecGestureAttribute.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec_semRil.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecure_storage.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsevrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsevrc.so \
         vendor/samsung/universal9810-common/proprietary/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsmartfocusengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocusengine.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_cropping.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnaace.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnamrnb.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsnamrwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnamrwb.so \
@@ -494,45 +500,69 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute_wrapper.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_vndk.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.camera.samsung.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libsqcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsqcp.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomx263dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomx263dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomx264dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomx264dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxaacd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxaacd.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxadpcmd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxadpcmd.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxamrd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxamrd.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxaped.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxaped.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxcmn.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxcore_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxcore_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxflacd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxflacd.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxhevcdsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxhevcdsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxmp3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxmp3d.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxmp43d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxmp43d.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxmp4vdsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxmp4vdsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxnaace.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxvc1dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxvc1dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxvp8d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxvp8d.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxwmad.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxwmad.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxwmv7d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxwmv7d.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libsomxwmv8d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxwmv8d.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libspictrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspictrl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsxqk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsxqk.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
         vendor/samsung/universal9810-common/proprietary/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_comm.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_direct_comm.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_tz_esecomm.so \
         vendor/samsung/universal9810-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
         vendor/samsung/universal9810-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_core.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvdis_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvicom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvicom.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvkmanager_vendor.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
         vendor/samsung/universal9810-common/proprietary/lib/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvxu.so \
         vendor/samsung/universal9810-common/proprietary/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwsmd_functions.so \
-        vendor/samsung/universal9810-common/proprietary/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
         vendor/samsung/universal9810-common/proprietary/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
+        vendor/samsung/universal9810-common/proprietary/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
         vendor/samsung/universal9810-common/proprietary/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SamsungRec_06006.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06006.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_play_plus_ver210.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver210.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
-        vendor/samsung/universal9810-common/proprietary/lib/lib_SoundBooster_ver950.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver950.so \
         vendor/samsung/universal9810-common/proprietary/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
-        vendor/samsung/universal9810-common/proprietary/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
         vendor/samsung/universal9810-common/proprietary/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@4.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.audio@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.external.secure_storage@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.external.secure_storage@2.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.light@2.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio.channel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio.secbridge@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio.sechook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2.so \
-        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.security.proca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.proca@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@4.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.light@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.light@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.proca@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/egl/libGLES_mali.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/sound_trigger.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
@@ -581,48 +611,73 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vndk/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libssl.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@4.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.camera.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5-legacy.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libBeauty_v2.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBeauty_v2.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFacePreProcessing.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHMT.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_core.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libLLVM_android_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLLVM_android_mali.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_3DPosition_ver202.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_AlbumArt_ver105.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/lib_SoundAlive_play_plus_ver210.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_play_plus_ver210.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/lib_SoundBooster_ver950.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver950.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl_plugin_slsi_hdr10.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libarac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarac.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libarac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarac.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_object_tracking.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libbcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcc.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libbccArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccArm.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libbccArm_bifrost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccArm_bifrost.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libbcc_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcc_mali.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libBeauty_v2.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBeauty_v2.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libblurdetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurdetection.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurdetection_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libclcore.bc:$(TARGET_COPY_OUT_VENDOR)/lib64/libclcore.bc \
         vendor/samsung/universal9810-common/proprietary/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libdsms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsms.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libdualcam_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libdualcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcapture.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libdualcapture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcapture_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libdualpreview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualpreview_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libeden_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeden_wrapper.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffectsconfig.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFacePreProcessing.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgiantmscl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhal.wsm.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhal.wsm.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhifills_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifistill.so \
@@ -633,59 +688,54 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_core.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libhypermotion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libIDDQD_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_core.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIDDQD_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libiva_android_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiva_android_hal.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster2_mdfpp.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libkeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster3device.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/liblivefocus_capture_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_capture_engine.so \
         vendor/samsung/universal9810-common/proprietary/lib64/liblivefocus_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_capture_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/liblivefocus_preview_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_engine.so \
         vendor/samsung/universal9810-common/proprietary/lib64/liblivefocus_preview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libllhdr_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllhdr_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libLLVM_android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLLVM_android.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libLLVM_android_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLLVM_android_mali.so \
         vendor/samsung/universal9810-common/proprietary/lib64/liblow_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblow_light_hdr.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib64/libmalicore.bc \
-        vendor/samsung/universal9810-common/proprietary/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdf.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libmfhdr_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfhdr_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1 \
-        vendor/samsung/universal9810-common/proprietary/lib64/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.1 \
         vendor/samsung/universal9810-common/proprietary/lib64/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpa.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpadm.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprofileparamstorage.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsaiv_BeautySolutionVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsaiv_BeautySolutionVideo.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsaped.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsaped.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsavsac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavsac.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsavscmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavscmn.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsavsvc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavsvc.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libSceneDetector_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSceneDetector_v1.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscore.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libscore_camera1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscore_camera1.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libscore_camera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscore_camera3.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudiocoreutils.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsecGestureAttribute.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecGestureAttribute.camera.samsung.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec_semRil.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudiocoreutils.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecure_storage.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsevrc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsevrc.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster3device.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsmartfocusengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartfocusengine.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartfocus_interface.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmart_cropping.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnaace.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrnb.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsnamrwb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrwb.so \
@@ -694,56 +744,108 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_wrapper.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomp.camera.samsung.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libsqcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsqcp.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomx263dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomx263dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomx264dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomx264dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxaacd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxaacd.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxadpcmd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxadpcmd.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxamrd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxamrd.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxaped.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxaped.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxcmn.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxcore_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxcore_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxflacd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxflacd.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxhevcdsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxhevcdsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxmp3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxmp3d.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxmp43d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxmp43d.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxmp4vdsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxmp4vdsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxnaace.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxvc1dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxvc1dsw.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxvp8d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxvp8d.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxwmad.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxwmad.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxwmv7d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxwmv7d.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libsomxwmv8d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxwmv8d.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libspictrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspictrl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsxqk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxqk.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libtensorflow_inference_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflow_inference_native.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libtlc_comm_atn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_comm_atn.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libtlc_comm_iccc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_comm_iccc.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libtlc_direct_comm_atn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_direct_comm_atn.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libtlc_direct_comm_iccc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_direct_comm_iccc.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_comm.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_direct_comm.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_tz_esecomm.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libucsengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucsengine.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_core.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libvdis_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_interface.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libvkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkservice.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndsecril-client.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvxu.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwsmd_functions.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
         vendor/samsung/universal9810-common/proprietary/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
         vendor/samsung/universal9810-common/proprietary/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
         vendor/samsung/universal9810-common/proprietary/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@4.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.external.secure_storage@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.external.secure_storage@2.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint@2.1.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.exthealth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.exthealth@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light@2.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@1.1.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.channel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.configsvc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.configsvc@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.secbridge@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.secbridge@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.sechook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.sechook@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@1.2.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.base@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@4.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.light@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.proca@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.securestorage@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.atn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.atn@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.atn@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.atn@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.iccc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.iccc@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.tima@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.tima@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.tima@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.tima@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.security.proca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.proca@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.security.sem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.sem@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.security.skpm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.skpm@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.security.wvkprov_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.wvkprov_server@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so
 
