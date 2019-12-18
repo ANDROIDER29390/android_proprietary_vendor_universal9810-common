@@ -242,7 +242,7 @@ PRODUCT_COPY_FILES += \
 # ETC/SENSOR
 PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
-        vendor/samsung/universal9810-common/proprietary/etc/sensors/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/hals.conf
+        vendor/samsung/universal9810-common/proprietary/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # FIRMWARE
 PRODUCT_COPY_FILES += \
