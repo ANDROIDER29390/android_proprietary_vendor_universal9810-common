@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.wifi@1.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.0-service:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.drm@1.0-service \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.drm@1.2-service.widevine \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.drm@1.2-service.clearkey \
         vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
