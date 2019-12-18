@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
         vendor/samsung/universal9810-common/proprietary/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.wifi@1.0-service \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.0-service:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.drm@1.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
@@ -149,6 +150,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/init/android.hardware.health@2.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.samsung.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/android.hardware.usb@1.1-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service.samsung.rc \
+        vendor/samsung/universal9810-common/proprietary/etc/init/android.hardware.drm@1.2-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service.clearkey.rc \
+        vendor/samsung/universal9810-common/proprietary/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service.widevine.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
