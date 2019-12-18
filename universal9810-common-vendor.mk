@@ -71,12 +71,13 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
         vendor/samsung/universal9810-common/proprietary/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
         vendor/samsung/universal9810-common/proprietary/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.wifi@1.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@2.1-service \
-        vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@2.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
@@ -154,7 +155,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/init/secure_storage_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secure_storage_daemon.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@2.1-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
-        vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
+        vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@2.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
@@ -240,7 +241,8 @@ PRODUCT_COPY_FILES += \
 
 # ETC/SENSOR
 PRODUCT_COPY_FILES += \
-        vendor/samsung/universal9810-common/proprietary/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf
+        vendor/samsung/universal9810-common/proprietary/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
+        vendor/samsung/universal9810-common/proprietary/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -316,6 +318,7 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_soft_rawdec.so \
         vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
         vendor/samsung/universal9810-common/proprietary/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/audio.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/sound_trigger.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
@@ -324,12 +327,14 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/power.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.universal9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib/hw/sensors.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/thermal.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal9810.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
@@ -563,6 +568,8 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/android.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/sound_trigger.primary.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
@@ -570,15 +577,18 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/gralloc.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/power.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.universal9810.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/sensors.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.exynos9810.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/thermal.universal9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal9810.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.light@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
         vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -812,7 +822,7 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.base@1.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint@2.1.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@4.0.so \
