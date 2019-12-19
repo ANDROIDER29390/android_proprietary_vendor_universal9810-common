@@ -122,8 +122,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
         vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
         vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000045.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000045.drbin \
-        vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000062.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff00000000000000000000062.tlbin \
-        vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
+        vendor/samsung/universal9810-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000062.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000062.tlbin \
+        vendor/samsung/universal9810-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
 
 # ETC
 PRODUCT_COPY_FILES += \
