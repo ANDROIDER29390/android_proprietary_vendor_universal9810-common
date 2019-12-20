@@ -174,7 +174,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
-        vendor/samsung/universal9810-common/proprietary/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc
+        vendor/samsung/universal9810-common/proprietary/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
+        vendor/samsung/universal9810-common/proprietary/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc
 
 # ETC/NFC
 PRODUCT_COPY_FILES += \
@@ -854,7 +855,7 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \
-        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@1.0.so \
