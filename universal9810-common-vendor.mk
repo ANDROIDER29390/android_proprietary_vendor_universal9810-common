@@ -345,6 +345,19 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@2.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
         vendor/samsung/universal9810-common/proprietary/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.MPEG8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG8.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
         vendor/samsung/universal9810-common/proprietary/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
@@ -628,6 +641,19 @@ vendor/samsung/universal9810-common/proprietary/lib/vndk/libstagefright_foundati
         vendor/samsung/universal9810-common/proprietary/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
         vendor/samsung/universal9810-common/proprietary/lib64/vndk/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libssl.so \
         vendor/samsung/universal9810-common/proprietary/lib64/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.MPEG8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG8.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
+        vendor/samsung/universal9810-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
         vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
         vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
         vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
