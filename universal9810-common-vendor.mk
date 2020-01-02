@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.clearkey \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.usb@1.1-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service.samsung \
         vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
