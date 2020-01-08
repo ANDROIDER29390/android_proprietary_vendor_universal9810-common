@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.clearkey \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.usb@1.1-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service.samsung \
-        vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
+        vendor/samsung/universal9810-common/proprietary/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
         vendor/samsung/universal9810-common/proprietary/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
         vendor/samsung/universal9810-common/proprietary/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@2.1-service \
@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
+        vendor/samsung/universal9810-common/proprietary/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/secure_storage_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secure_storage_daemon.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@2.1-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
@@ -166,9 +167,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc \
-        vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.security.sem@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.sem@1.0-service.rc \
-        vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.skpm@1.0-service.rc \
-        vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung.security.wvkprov_server@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.wvkprov_server@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
         vendor/samsung/universal9810-common/proprietary/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
