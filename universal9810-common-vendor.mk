@@ -23,6 +23,9 @@
 
 BUILD_BROKEN_DUP_RULES := true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.vendor.build.security_patch=2019-12-15
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so
