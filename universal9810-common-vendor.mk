@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         vendor/samsung/universal9810-common/system/lib64/libmaet.so:system/lib64/libmaet.so \
         vendor/samsung/universal9810-common/system/lib64/libsxqk_skia.so:system/lib64/libsxqk_skia.so \
-		vendor/samsung/universal9810-common/system/bin/lpm:system/bin/lpm \
+	vendor/samsung/universal9810-common/system/bin/lpm:system/bin/lpm \
         vendor/samsung/universal9810-common/system/media/battery_error.spi:system/media/battery_error.spi \
         vendor/samsung/universal9810-common/system/media/battery_low.spi:system/media/battery_low.spi \
         vendor/samsung/universal9810-common/system/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
