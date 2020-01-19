@@ -921,10 +921,8 @@ vendor/samsung/universal9810-common/vendor/lib/vndk/libstagefright_foundation.so
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \
-        vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
-        vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so \
+        vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
-        vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@1.0.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
         vendor/samsung/universal9810-common/vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
