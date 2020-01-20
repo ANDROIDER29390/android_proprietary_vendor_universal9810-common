@@ -2,8 +2,8 @@ on init
     mount configfs none /sys/kernel/config
     mkdir /sys/kernel/config/usb_gadget/g1
     mkdir /sys/kernel/config/usb_gadget/g1/strings/0x409
-    mkdir /sys/kernel/config/usb_gadget/g1/configs/c.1
-    mkdir /sys/kernel/config/usb_gadget/g1/configs/c.1/strings/0x409
+    mkdir /sys/kernel/config/usb_gadget/g1/configs/b.1
+    mkdir /sys/kernel/config/usb_gadget/g1/configs/b.1/strings/0x409
     mkdir /sys/kernel/config/usb_gadget/g1/functions/mtp.0
     mkdir /sys/kernel/config/usb_gadget/g1/functions/ptp.0
     mkdir /sys/kernel/config/usb_gadget/g1/functions/acm.0
@@ -23,27 +23,27 @@ on boot
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/serialnumber ${ro.serialno}
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/manufacturer "SAMSUNG"
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/product "SAMSUNG_Android"
-    write /sys/kernel/config/usb_gadget/g1/configs/c.1/strings/0x409/configuration "Conf 1"
-    write /sys/kernel/config/usb_gadget/g1/configs/c.1/MaxPower 0x3f
-    symlink /sys/kernel/config/usb_gadget/g1/functions/mtp.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/mtp.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/ptp.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/ptp.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/ffs.adb /sys/kernel/config/usb_gadget/g1/configs/c.1/ffs.adb
-    symlink /sys/kernel/config/usb_gadget/g1/functions/acm.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/acm.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/rndis.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/rndis.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/dm.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/dm.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/conn_gadget.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/conn_gadget.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/midi.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/midi.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/accessory.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/accessory.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/audio_source.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/audio_source.0
-    symlink /sys/kernel/config/usb_gadget/g1/functions/ncm.0 /sys/kernel/config/usb_gadget/g1/configs/c.1/ncm.0
+    write /sys/kernel/config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "Conf 1"
+    write /sys/kernel/config/usb_gadget/g1/configs/b.1/MaxPower 0x3f
+    symlink /sys/kernel/config/usb_gadget/g1/functions/mtp.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/mtp.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/ptp.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/ptp.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/ffs.adb /sys/kernel/config/usb_gadget/g1/configs/b.1/ffs.adb
+    symlink /sys/kernel/config/usb_gadget/g1/functions/acm.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/acm.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/rndis.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/rndis.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/dm.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/dm.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/conn_gadget.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/conn_gadget.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/midi.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/midi.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/accessory.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/accessory.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/audio_source.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/audio_source.0
+    symlink /sys/kernel/config/usb_gadget/g1/functions/ncm.0 /sys/kernel/config/usb_gadget/g1/configs/b.1/ncm.0
     setprop sys.usb.configfs 1
 
 on charger && property:ro.debuggable=1
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/serialnumber ${ro.serialno}
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/manufacturer "SAMSUNG"
     write /sys/kernel/config/usb_gadget/g1/strings/0x409/product "SAMSUNG_Android_lpm"
-    write /sys/kernel/config/usb_gadget/g1/configs/c.1/strings/0x409/configuration "Conf 1"
-    symlink /sys/kernel/config/usb_gadget/g1/functions/ffs.adb /sys/kernel/config/usb_gadget/g1/configs/c.1/ffs.adb
+    write /sys/kernel/config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "Conf 1"
+    symlink /sys/kernel/config/usb_gadget/g1/functions/ffs.adb /sys/kernel/config/usb_gadget/g1/configs/b.1/ffs.adb
     setprop sys.usb.configfs 1
     setprop sys.usb.config adb
 
@@ -322,4 +322,4 @@ on property:sys.usb.ffs.ready=1 && property:sys.usb.config=mtp,conn_gadget,adb
     write /sys/kernel/config/usb_gadget/g1/bDeviceClass 0
     write /sys/kernel/config/usb_gadget/g1/UDC "10c00000.dwc3"
     write /sys/class/android_usb/android0/enable 1
-    setprop sys.usb.state ${sys.usb.config}
+    setprop sys.usb.state ${sys.usb.config}# adb only USB configuration For VTS Teston property:sys.usb.ffs.ready=1 && property:sys.usb.config=adb && property:sys.usb.configfs=1    write /sys/kernel/config/usb_gadget/g1/idProduct 0x685d    write /sys/kernel/config/usb_gadget/g1/idVendor 0x04e8
