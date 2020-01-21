@@ -1,0 +1,14 @@
+on early-init
+# start softdog early
+    write /dev/watchdog1 1
+
+on init
+    chown root system /dev/watchdog1
+    chmod 0660 /dev/watchdog1
+
+# watchdog disable in case of lpm / GSI booting
+on property:ro.bootmode=charger
+    write /dev/watchdog1 "V"
+
+on property:ro.boot.verifiedbootstate=orange  # orange : unlocked state of GSI img
+    write /dev/watchdog1 "V"
