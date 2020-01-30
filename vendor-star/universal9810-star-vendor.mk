@@ -686,7 +686,6 @@ vendor/samsung/universal9810-common/vendor-star/vendor/lib/vndk/libstagefright_f
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libbcc_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcc_mali.so \
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libblurdetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurdetection.so \
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurdetection_interface.so \
-        vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libclcore.bc:$(TARGET_COPY_OUT_VENDOR)/lib64/libclcore.bc \
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
         vendor/samsung/universal9810-common/vendor-star/vendor/lib64/libdsms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsms.so \
